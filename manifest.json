@@ -1,0 +1,8 @@
+{
+  "short_name": "react-file-picker-ui-demo",
+  "name": "React File Picker UI Demo",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
