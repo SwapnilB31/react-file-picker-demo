@@ -32,7 +32,7 @@ function FilePickerServer() {
 async function scanDirFromServer(path) {
     let result = []
     try {
-      const response = await fetch(`http://localhost/scanDir?path=${encodeURI(path)}`,{
+      const response = await fetch(`http://localhost/scanDir`,{
         method: "POST",
         body : JSON.stringify({path : path}),
         headers : {"Content-type": "application/json; charset=UTF-8"}
