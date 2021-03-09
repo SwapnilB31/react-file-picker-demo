@@ -23,7 +23,7 @@ function FilePickerStatic() {
 
     return (
         <React.Fragment>
-        <h2>Selected path : {selectedPath}</h2>
+        <h2 style={{wordWrap : 'break-word'}}>Selected path : {selectedPath}</h2>
         <button onClick = {() => setFpOpen(!fpOpen)}>Show File Picker</button>
         <FilePicker 
             show={fpOpen} 
