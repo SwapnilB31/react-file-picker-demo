@@ -6,7 +6,7 @@ function FileSystem(){
      * 
      * @param {String} path 
      */
-     const scanDir = (path) => {
+     const scanDir = async (path) => {
         let obj = null;
         const pathParts = path.split('/').slice(1);
         console.log(pathParts)
