@@ -4,7 +4,7 @@ You can use the file picker to traverse on static Directory Tree object generate
 
 **src/components/DirectoryTree.js** has the static Directory Tree object and **src/components/FileSystem.js** returns an async method named **scanDir(path : string)** that traverses on the object.
 
-**src/components/FilePickerStatic.js** imports the scanDir method from **FileSystem.js** and passed it on to the **react-file-picker-ui** component.
+**src/components/FilePickerStatic.js** imports the scanDir method from **FileSystem.js** and passes it on to the **react-file-picker-ui** component.
 
 ## Using File Picker with an Express Server
 
