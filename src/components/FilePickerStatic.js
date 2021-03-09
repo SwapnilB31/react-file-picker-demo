@@ -37,7 +37,17 @@ function FilePickerStatic() {
 
         <div>
             <pre>
-                const filtersArray = ["mp4","mp3","wav","aac","mkv","avi","pdf","doc","docx"]
+                const filtersArray = [
+                    "mp4",
+                    "mp3",
+                    "wav",
+                    "aac",
+                    "mkv",
+                    "avi",
+                    "pdf",
+                    "doc",
+                    "docx"
+                ]
             </pre>
         </div>
 
